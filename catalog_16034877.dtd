@@ -1,0 +1,46 @@
+<!ELEMENT STORE (details, items)>
+
+<!ELEMENT details (Name, address, phone, website, logo)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT logo EMPTY >
+
+<!ELEMENT items ((CPU+), (Monitor+), Mouse+,  KeyBoard+, Hard_disk+, speaker+,webcam+)>
+
+<!ELEMENT CPU (Name, Item_Number, Description, Quantity, Price)>
+<!ATTLIST CPU ref IDREFS #IMPLIED>
+<!ELEMENT Item_Number (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST CPU delivery (free|express) #IMPLIED>
+
+<!ELEMENT Monitor (Name, Item_Number, Description, Quantity, Price, (info+))>
+<!ATTLIST Monitor id ID #REQUIRED>
+<!ATTLIST Monitor type (CRT|LCD|LED) #IMPLIED>
+<!ELEMENT info (manufacturer, resolution, dimension, color)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT resolution (#PCDATA)>
+<!ELEMENT dimension (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+
+<!ELEMENT Mouse (Name, Item_Number, Description, Quantity, Price)>
+
+
+<!ELEMENT KeyBoard (Name, Item_Number, Description, Quantity, Price)>
+<!ATTLIST KeyBoard id ID #REQUIRED>
+
+
+<!ELEMENT Hard_disk (Name, Item_Number, Description, Quantity, Price)>
+<!ATTLIST Hard_disk id ID #REQUIRED>
+
+
+<!ELEMENT speaker (Name, Item_Number, Description, Quantity, Price)>
+<!ATTLIST speaker id ID #REQUIRED>
+
+<!ELEMENT webcam (Name, Item_Number, Description, Quantity, Price)>
+
+<!ATTLIST logo source ENTITY #REQUIRED>
+<!NOTATION PNG SYSTEM "image/png" >

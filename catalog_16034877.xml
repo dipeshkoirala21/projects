@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_16034877.css"?>
+<!-- 
+Company Name= Electronic store
+Author : Dipesh Koirala
+Date : March 21, 2018
+
+
+ -->
+ <!DOCTYPE STORE SYSTEM "catalog_16034877.dtd"[
+<!ENTITY brand SYSTEM "logo.PNG" NDATA PNG>
+ ]>
+ <STORE>
+ 	<details>
+		<Name>Electronic Online Store </Name>
+		<address>Maharajgunj-5, Kathmandu, Nepal</address>
+		<phone>01-485XXX</phone>
+		<website>www.electronicstore.com</website>
+		<logo source="brand"/>
+	</details>
+	<items>
+		
+		<CPU ref="m1 kb hd spk" delivery="free">
+			<Name >Dell Precision 5720</Name>
+			<Item_Number>101</Item_Number>
+			<Description>An exceptional performer that's equally at home powering VR gaming and serving as a multimedia editing platform, the Dell Precision 5720 desktop PC is our top pick for business all-in-ones.</Description>
+			<Quantity>4</Quantity>
+			<Price>$1,699</Price>
+		</CPU>
+		
+
+		
+		<CPU ref="m2 kb hd spk" delivery="express">
+			<Name >Origin Neuron</Name>
+			<Item_Number>102</Item_Number>
+			<Description>The Origin Neuron is a stellar gaming machine with practically unrivaled gaming power housed in an elegant design. It's our top pick for high-end gaming desktops.</Description>
+			<Quantity>4</Quantity>
+			<Price>$964</Price>
+		</CPU>
+		
+		
+		
+		<Monitor id="m1" type="CRT">
+			<Name>Samsung SyncMaster 793S</Name>
+			<Item_Number>103</Item_Number>
+			<Description>The Samsung 793S is a conventional flat screen monitor (not the true flat type) with a 16" viewable screen area. It supports a horizontal dot pitch of 0.23 mm. The frequency range supported by this model is 30 KHz to 70 KHz (Horizontal) and 50 Hz to 160 Hz (vertical). The maximum resolution supported is 1280 x 1024 pixels at 65 Hz refresh rate, while the recommended resolution stands at 1024 x 768 pixels at 85 Hz.</Description>
+			<Quantity>2</Quantity>
+			<Price>$150</Price>
+			<info>
+				<manufacturer>Samsung</manufacturer>
+				<resolution>1280*1024</resolution>
+				<dimension>15.8 in x 16.1 in x 14.9 in</dimension>
+				<color>White</color>
+			</info>
+		</Monitor>
+		
+		
+		
+		<Monitor id="m2" type="LED">
+			<Name >Dell G2210</Name>
+			<Item_Number>104</Item_Number>
+			<Description>An LED monitor (short for Light Emitting Diode) or LED display is a flat screen, flat panel computer monitor or television. It has a very short depth and is light in terms of weight. The actual difference between this and a typical LCD monitor is the backlighting. The first LCD monitors used CCFL instead of LEDs to illuminate the screen.</Description>
+			<Quantity>1</Quantity>
+			<Price>$349</Price>
+			<info>	
+				<manufacturer>Sony</manufacturer>
+				<resolution>1680 x 1050</resolution>
+				<dimension>20.1 in x 6.2 in x 16 in</dimension>
+				<color>Black</color>
+			</info>
+		</Monitor>
+		
+
+		
+		<Monitor id="m3" type="LCD">
+			<Name >Dell S2317HJ </Name>
+			<Item_Number>105</Item_Number>
+			<Description> The Dell 23 Monitor with Wireless Charging Stand | S2317HJ combines stylish design with wireless charging capabilities for a more convenient home viewing experience. </Description>
+			<Quantity>2</Quantity>
+			<Price>$249.99</Price>
+			<info>
+				<manufacturer>Dell</manufacturer>
+				<resolution>1920*1080</resolution>
+				<dimension>20.5 in x 7.7 in x 16.1 in</dimension>
+				<color>Black</color>
+			</info>
+		</Monitor>
+		
+
+		
+		<Mouse>
+			<Name>Logitech MX Anywhere 2</Name>
+			<Item_Number>106</Item_Number>
+			<Description>Smaller than Logitech’s flagship, the MX Master, the Logitech MX Anywhere 2 is the ideal travel mouse. It can connect with up to three distinct devices with 2.4GHZ wireless technology or with Bluetooth, making it obvious why this mouse is renowned for having quick setup and surprisingly long battery life. Capable of extremely quick charging, in just 4 minutes the MX Anywhere 2 charges enough for an entire day. </Description>
+			<Quantity>1</Quantity>
+			<Price>$49.99</Price>
+		</Mouse>
+		
+
+		
+		<KeyBoard id="kb">
+			<Name>Corsair's K95</Name>
+			<Item_Number>107</Item_Number>
+			<Description>Corsair's K95 RGB Platinum  is like the fully-loaded Ferrari of keyboards: packed with features, totally gorgeous, and at almost $200 it's incredibly expensive compared to its peers. Still, it's the company's flagship keyboard and packs every bit of technology at Corsair's disposal into an exquisite and comfortable package. </Description>
+			<Quantity>2</Quantity>
+			<Price>$199.99</Price>
+		</KeyBoard>
+		
+
+		
+		<Hard_disk id="hd">
+			<Name>Samsung 850 EVO 500GB SSD </Name>
+			<Item_Number>108</Item_Number>
+			<Description>Upgrade every aspect of your computer's performance with Samsung 850 EVO SSD, designed with state-of-the-art 3D V-NAND technology. You'll get the 850 EVO's new 3-dimensional chip design that enables superior performance, greater reliability and superior energy efficiency, so you can work and play faster and longer than ever before.</Description>
+			<Quantity>2</Quantity>
+			<Price>$272.56</Price>
+		</Hard_disk>
+		
+
+		
+		<speaker id="spk">
+			<Name>Mackie CR Series CR4 Computer Speakers</Name>
+			<Item_Number>109</Item_Number>
+			<Description>These speakers by Mackie provide a large, full sound. On the front panel, you'll find a jack for your headphones and an aux input, making it easy to use the speakers with your smartphone. If you don't want to have a wired connection, they even support Bluetooth.</Description>
+			<Quantity>1</Quantity>
+			<Price>$141</Price>
+		</speaker>
+		
+		<webcam>
+			<Name>Logitech C920</Name>
+			<Item_Number>110</Item_Number>
+			<Description>Logitech Webcam with full HD 1080p video calling (up to 1920 x 1080 pixels) with the latest version of Skype for Windows
+			720p HD video calling (up to 1280 x 720 pixels) with supported clients. Full HD video recording.</Description>
+			<Quantity>1</Quantity>
+			<Price>$49.99</Price>
+		</webcam>		
+
+</items>
+ </STORE>

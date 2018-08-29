@@ -1,0 +1,124 @@
+STORE
+{	
+	background-image: url(logo.PNG);
+	background-size: 160px 140px;
+	background-repeat: no-repeat;
+	display: block;
+	text-align: center;
+	background-color: ivory;
+	width: 60%;
+	display: block;
+	border: 2px solid grey;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+	border-radius:4px;
+	margin-left: 20%;
+
+}
+
+details{
+    width: 50%;
+    height: auto;
+    border: 3px solid #A9A9A9;
+	display: inline-block;
+	padding-top: 20px;
+	border-radius: 4px;
+	background: linear-gradient(to left, white , lightblue);
+	color: rgb(124,10,2);
+
+}
+details> Name{
+	display: block;
+	font-size: 20pt;
+	font-weight: bold;
+	font-family:Verdana, Geneva, sans-serif; 
+	
+}
+details> phone,address,website{
+	display: block;
+	font-size: 13pt;
+	margin-left: 20px;
+	font-family:Verdana, Geneva, sans-serif;
+
+}
+CPU,Monitor,Mouse ,KeyBoard,Hard_disk,speaker,webcam
+{
+	display: block;
+	color: #141414; 
+	text-align: left;
+	margin-left: 20pt;
+	margin: 10px;
+	border: 1px solid grey;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+	background: linear-gradient(to right, white , grey);
+}
+
+Name
+{
+	font-size: 15pt;
+	font-weight: bold;
+	padding-left: 20px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+Item_Number::before { 
+    content: " Item Number :";
+    font-weight: bold;
+    font-style: italic;
+}
+Description::before { 
+    content: " Item Description :";
+    font-weight: bold;
+    font-style: italic;
+}
+
+Quantity::before { 
+    content: " Stock Quantity :";
+    font-weight: bold;
+    font-style: italic;
+}
+Price::before { 
+    content: " Price :";
+    font-style: italic;
+    font-weight: bold;
+}
+items
+{ 
+	background-image: url(background.JPG);
+	display: block;
+	padding: 30px;
+	margin-top: 20px;
+	border-spacing: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+	border: 3px solid grey;
+}
+Item_Number,Description,Quantity, Price,info
+{
+font-size: 13pt;
+display:list-item;
+margin-left: 20pt;
+font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace ;
+}
+
+manufacturer, resolution, dimension,color{
+	display: block;
+}
+manufacturer::before { 
+    content: " Brand :";
+    font-weight: bold;
+    font-style: italic;
+}
+resolution::before { 
+    content: " Resolution :";
+    font-weight: bold;
+    font-style: italic;
+}
+dimension::before { 
+    content: "Dimension :";
+    font-weight: bold;
+    font-style: italic;
+}
+color::before { 
+    content: "Color :";
+    font-weight: bold;
+    font-style: italic;
+}
